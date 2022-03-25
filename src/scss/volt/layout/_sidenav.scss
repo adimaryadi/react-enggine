@@ -171,8 +171,8 @@
 	overflow-y: hidden;
 	.accordion-button{
 		&::after {
-			background-image: none;
-			content: '\f054';
+			// background-image: none;
+			// content: '\f054';
 			font-family: $font-awesome-5;
 			font-size: $font-size-sm;
 			font-weight: 900;

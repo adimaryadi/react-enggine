@@ -19,7 +19,7 @@ import { BrowserRouter } from "react-router-dom";
 
 // core styles
 import "./scss/volt.scss";
-
+import "./scss/pari/pari.scss";
 // vendor styles
 import "react-datetime/css/react-datetime.css";
 

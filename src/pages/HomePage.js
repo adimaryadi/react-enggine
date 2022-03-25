@@ -50,11 +50,13 @@ const RouteWithSidebar = ({ component: Component, ...rest }) => {
       <>
         {/* <Preloader show={loaded ? false : true} /> */}
         <Sidebar />
-
+        
         <main className="content">
           <Navbar />
-          <Component {...props} />
-          <Footer toggleSettings={toggleSettings} showSettings={showSettings} />
+          <div className="main-content">
+            <Component {...props} />
+            <Footer toggleSettings={toggleSettings} showSettings={showSettings} />
+          </div>
         </main>
       </>
     )}
